@@ -91,6 +91,18 @@ More accurate prediction of goals and more complete cognitive structure
 
 We use a very specific scenario to compare the differences between "mathematical intelligence" and "structural intelligence" in handling the same task.
 
+Direct comparison: How to 'migrate' from learning to grabbing in factories to households?
+
+Mathematical path: retraining
+
+In the factory: Neural networks use massive data to remember specific parameters such as visual features, coordinate positions, joint angles, etc. corresponding to "grasping object A".
+Moving to the home: Faced with B objects of completely different shapes, colors, and positions, all the parameters previously remembered have become invalid. It needs to re collect data and retrain the model in order to establish new mapping relationships on specific new data.
+Structured Path: The AI-C Engine does not record "coordinate data" in the "segmentation" mode, but instead records the complete thought process of the robot "how to segment and extract graspable objects from the background" through divisiion_chain. It does not rely on the coordinate data of specific objects, but records the "grasping" structure that can be applied to any object.
+
+At the factory: Division_chain records the structured steps of "cutting out the target object from the scene background → analyzing its spatial relationship with surrounding objects → planning the grasping path".
+Moving to the home: When the robot faces a new object, it no longer needs to be "retrained", but instead calls on the "grasping" structure stored in Division_chain. It will re divide the current family scene according to the established thinking path, identify new target objects, new spatial relationships, and plan new paths.
+Simply put, the cognitive system does not take away the "factory's answer" (coordinate data), but takes away the "steps and ideas for solving problems in the factory". Applying this idea to new scenarios is the essence of 'experience transfer'. Not by memory, but by mastering transferable cognitive structures to adapt to new environments.
+
 Scenario: A robot is in the kitchen, and the user says, 'Give me that apple.
 
 1、 The processing method of mathematical intelligence
