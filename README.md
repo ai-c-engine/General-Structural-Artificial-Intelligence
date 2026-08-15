@@ -224,7 +224,7 @@ Mathematical intelligence is like an AI that is always doing things' for the fir
 
 Installation
 
-git clone https://github.com/ai-c-engine/General Structural Artificial Intelligence.git
+git clone https://github.com/ai-c-engine/General-Structural-Artificial-Intelligence.git
 cd ai-c-engine
 pip install -r requirements.txt
 
@@ -285,7 +285,7 @@ MIT License
 
 Project author: [C]
 Email: [as2020319@163.com]
-Project Address: https://github.com/ ai-c-engine/General Structural Artificial Intelligence.git
+Project Address: https://github.com/ai-c-engine/General-Structural-Artificial-Intelligence.git
 
 
 ## ⭐ If this project is helpful to you, please give it a Star!
